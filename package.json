@@ -1,6 +1,6 @@
 {
   "name": "arduino-serial",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Control arduino using node.js via serial port.",
   "main": "listPorts.js",
   "scripts": {
