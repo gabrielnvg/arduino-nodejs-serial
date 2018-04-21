@@ -1,5 +1,5 @@
 # About
-Read an USB connected arduino's serial data using Node.js.
+Read and write to an USB connected arduino's serial data using Node.js.
 
 # Usage
 To get the project dependencies, run:
@@ -39,6 +39,7 @@ Where 'port' is your arduino USB port and 'pin' is the chosen pin. Please be awa
 Example:
 ```sh
 $ node write.js COM1 7
+```
 
 # Observations
 - Note that "9600" is the chosen serial baud rate so dont't forget to match that on your arduino's code.

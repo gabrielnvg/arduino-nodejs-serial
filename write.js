@@ -11,7 +11,7 @@ var serialport = new SerialPort(portName, {
 serialport.on('open', function(err) {
     console.log('Serial Port open.');
     console.log('Chosen pin: ' + chosenPin + '.');
-    //A timeout is necessary to wait the port to open (if not working, try to increase the milliseconds value)
+    // A timeout is necessary to wait the port to open (if not working, try to increase the milliseconds value)
     setTimeout(function() {
 		serialport.write(chosenPin);
 	}, 2000);
