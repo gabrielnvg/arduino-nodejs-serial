@@ -18,9 +18,9 @@ An example on Windows: "COM1".
 ### Reading
 Once knowing the arduino port, run:
 ```sh
-$ node read.js 'port'
+$ node read.js [port]
 ```
-Where 'port' is your arduino USB port.
+Where "[port]" is your arduino USB port.
 Example:
 ```sh
 $ node read.js COM1
@@ -33,9 +33,9 @@ To turn a pin on/off, you will use the same following command.
 
 Once knowing the arduino port, run:
 ```sh
-$ node write.js 'port' 'pin'
+$ node write.js [port] [pin]
 ```
-Where 'port' is your arduino USB port and 'pin' is the chosen pin. Please be aware that it only accepts values from 0 to 9 on current version. I'm still working on it :)
+Where "[port]" is your arduino USB port and "[pin]" is the chosen pin. Please be aware that it only accepts values from 0 to 9 on current version. I'm still working on it :)
 Example:
 ```sh
 $ node write.js COM1 7
